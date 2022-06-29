@@ -22,7 +22,9 @@ gh discover engagement \
 --cache-ttl 20m
 ```
 
->**Note**
+![](docs/assets/engagement-by-issue.png)
+
+> **Note**
 > To print a raw Markdown format, add the `--raw` flag.
 
 ### Order by users
@@ -36,5 +38,7 @@ gh discover engagement \
 --cache-ttl 20m
 ```
 
->**Note**
+![](docs/assets/engagement-by-user.png)
+
+> **Note**
 > To print a raw Markdown format, add the `--raw` flag.
