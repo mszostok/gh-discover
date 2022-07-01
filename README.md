@@ -16,7 +16,7 @@ After installation, you can use the `gh discover engagement` command to collect 
 ```bash
 GH_REPO=infracloudio/botkube \
 gh discover engagement \
---issues=250,508,542 \
+--issues=508,542 \
 --ignore-users=mszostok \
 --group-by=issues \
 --cache-ttl 20m
@@ -32,7 +32,7 @@ gh discover engagement \
 ```bash
 GH_REPO=infracloudio/botkube \
 gh discover engagement \
---issues=250,508,542 \
+--issues=508,542 \
 --ignore-users=mszostok \
 --group-by=users \
 --cache-ttl 20m
@@ -42,3 +42,10 @@ gh discover engagement \
 
 > **Note**
 > To print a raw Markdown format, add the `--raw` flag.
+
+
+## TODO
+
+- [ ] Add option to print the dates of activity (when commented/added reaction etc.)
+- [ ] Add an option to print additional user activity in a given repository. Similar to [Search by a user that's involved in an issue or pull request
+(https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-a-user-thats-involved-in-an-issue-or-pull-request)
