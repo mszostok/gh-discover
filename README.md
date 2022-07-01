@@ -47,5 +47,5 @@ gh discover engagement \
 ## TODO
 
 - [ ] Add option to print the dates of activity (when commented/added reaction etc.)
-- [ ] Add an option to print additional user activity in a given repository. Similar to [Search by a user that's involved in an issue or pull request
-(https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-a-user-thats-involved-in-an-issue-or-pull-request)
+- [ ] Add an option to print additional user activity in a given repository. Similar to [Search by a user that's involved in an issue or pull request](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-a-user-thats-involved-in-an-issue-or-pull-request)
+- [ ] Move functionality to `gimme`.
